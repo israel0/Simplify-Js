@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<body></body>
+
+<!--
+    For Learning and Review Only
+-->
+
+<script>
+
+    //  First Javascript Test Case
+            let boyage = 2000
+            let date = new Date();
+            let curentage  = date.getFullYear();
+            let age = curentage - boyage;
+            let answer = age;
+            
+            function getTimer(age) {
+                    return document.getElementById('demo').innerHTML = age;
+            }
+
+            console.log(age);
+
+   
+            // Data Structure with Javascript Array Push and Pop
+
+            let fruits = ['apple', 'banana', 'orange'];
+            let firstfruit = fruits[1] + " and " + fruits[2];
+
+            fruits.push("grape" , "mango" , "suya");
+            
+            function output() {
+                    fruits.pop()
+                    return document.getElementById('demo').innerHTML = fruits;
+            }
+
+
+
+            
+           /// Use Object and Array to Understand Stacks, Queue Nodes and Tree
+
+           // Object
+           let person = {
+                     firstname : "Akinsola",
+                     lastname : "Israel",
+                     age: 91,
+            };
+
+            person.city = "Ibadan";
+            
+            // Array
+            data = [];
+
+            //Push into array
+            data.push(person.firstname , person.lastname , person.age , person.city);
+
+            
+            function output() {
+                    // pop in array
+                    //data.pop();
+
+                    // Queue
+                    data.shift()
+                    return document.getElementById('demo').innerHTML = data;
+            }
+
+            // delete person.age
+
+            console.log(person);
+
+
+            // Javascript Mapping Method  
+            map = new Map();
+
+            map.set('name', person.firstname);
+            map.set("age" , person.age);
+
+            set = new Set();
+            set.add(person.firstname);
+            set.add(person.age);
+            set.add(person.age);
+
+
+
+</script>
+
+
+</body>
+</html> 
